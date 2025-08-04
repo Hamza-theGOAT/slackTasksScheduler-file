@@ -26,7 +26,24 @@ async def slackMsg(client, channel, msg):
 
 
 async def checkForFile(client, channel, fileTemp, onwards):
-    pass
+    response = client.conversations_history(
+        channel=channel,
+        oldest=onwards,
+        inclusive=False
+    )
+
+    msgs = response['messages']
+    for msg in msgs:
+        if 'files' in msg:
+            for file in msg['files']:
+                fileName = file.get('name', '')
+
+                if fileTemp in fileName:
+                    print(f"✅ File matched: {fileName}")
+                    return file
+
+    print("❌ No matching file found.")
+    return None
 
 
 async def workingFiles(client, tasks, task):
