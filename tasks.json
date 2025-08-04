@@ -1,1 +1,42 @@
-{}
+{
+    "CoGS_NF" : {
+        "InitHour" : 1,
+        "InitMin" : 43,
+        "SubseqReminder" : 60,
+        "SourceChannel" : "D06P2JPL9CZ",
+        "StorageChannel" : "D06P2JPL9CZ",
+        "FileTemp" : "CoGS_Upload",
+        "inMsg" : "CoGS Post krdain... :palms_up_together:",
+        "outMsg" : "✅ File Muhaiya hoi gai nauuuuu"
+    },
+    "StockCheck" : {
+        "InitHour" : 1,
+        "InitMin" : 43,
+        "SubseqReminder" : 30,
+        "SourceChannel" : "D03NB1V6CF6",
+        "StorageChannel" : "D03NB1V6CF6",
+        "FileTemp" : "Daily_Stock_Check",
+        "inMsg" : "Daily_Stock_Check: Stock Check run krdou... :palms_up_together:",
+        "outMsg" : "✅ File Muhaiya hoi gai nauuuuu"
+    },
+    "InitialSalesChannelCheck" : {
+        "InitHour" : 1,
+        "InitMin" : 43,
+        "SubseqReminder" : 60,
+        "SourceChannel" : "D073HGA2JA1",
+        "StorageChannel" : "D073HGA2JA1",
+        "FileTemp" : "Sales-Channel-Recon_",
+        "inMsg" : "Sales-Channel-Recon: Sales Channel Recon run krdou... :palms_up_together:",
+        "outMsg" : "✅ File Muhaiya hoi gai nauuuuu"
+    },
+    "ClosingSalesChannelCheck" : {
+        "InitHour" : 1,
+        "InitMin" : 43,
+        "SubseqReminder" : 60,
+        "SourceChannel" : "D073HGA2JA1",
+        "StorageChannel" : "D073HGA2JA1",
+        "FileTemp" : "Sales-Channel-Recon_",
+        "inMsg" : "Sales-Channel-Recon: Sales Channel Recon run krdou... :palms_up_together:",
+        "outMsg" : "✅ File Muhaiya hoi gai nauuuuu"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Task1" : {
+        "InitHour" : 1,
+        "InitMin" : 43,
+        "SubseqReminder" : 60,
+        "SourceChannel" : "ChannelID",
+        "FileTemp" : "[File name, eg file.pdf, file.txt, file.xlsx]",
+        "inMsg" : "[Initial Message]",
+        "outMsg" : "[Task Complete Confirmation Message]"
+    }
+}
